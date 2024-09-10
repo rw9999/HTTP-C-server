@@ -6,6 +6,8 @@
 
 #include <netinet/in.h>
 
+#include <unistd.h>
+
 int main(){
 
     char server_message[256] = "You have reached the server";
